@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="35dip"
+    android:gravity="center_vertical"
+    android:background="#F00">
+
+
+    <ImageView
+        app:srcCompat="@drawable/dots"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/ivDots"
+        android:layout_width="40dp"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:padding="8dp"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/magnifier"
+        android:id="@+id/ivSearch"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/ivDots"
+        android:layout_toStartOf="@+id/ivDots" />
+
+    <TextView
+        android:paddingLeft="8dp"
+        android:text="Flying Dictionary"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_height="35dp"
+        android:id="@+id/tvTitle"
+        android:layout_alignParentTop="true"
+
+        />
+
+
+</RelativeLayout>
